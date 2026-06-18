@@ -4,64 +4,59 @@ public class TankController : MonoBehaviour
 {
     private TankInput input;
 
-    [Header("Tank Info")] 
-    [SerializeField] private Rigidbody tankBody;
-    [SerializeField] private LayerMask tankDriveLayers;
+    [SerializeField] private SuspensionSpring[] leftTreadWheels;
+    [SerializeField] private SuspensionSpring[] rightTreadWheels;
 
-    [Header("Suspension Stats")]
-    [SerializeField] private Transform[] suspensionPoints;
-
-    [SerializeField] private Transform[] suspensionWheels;
-    [SerializeField] private Transform[] trackArmatures;
-    
-    [SerializeField] private AnimationCurve suspensionCurve;
-    [SerializeField] private Vector2 suspensionMinMaxDist;
-    [SerializeField] private Vector2 suspensionMinMaxForce;
-    //[SerializeField] private float suspensionStrength;
-    
-    
     void Awake()
     {
         input = new TankInput();
         input.Tank.Enable();
     }
 
-    void FixedUpdate()
+    void Update()
     {
-        RunSuspension();
-    }
+        RunTankMovement();
 
-    private void RunSuspension()
-    {
-        for (int i = 0; i < suspensionPoints.Length; i++)
+        for(int i = 0; i < leftTreadWheels.Length; i++)
         {
-            Ray ray = new Ray(suspensionPoints[i].position, suspensionPoints[i].up * -1);
+            leftTreadWheels[i].accelerationInput = leftTrackSpeed;
+        }
 
-            Physics.Raycast(ray, out RaycastHit hit, tankDriveLayers);
-
-            float dist = Vector3.Distance(hit.point, suspensionPoints[i].position);
-
-            float modDist = Mathf.Clamp01(Mathf.InverseLerp(suspensionMinMaxDist.x, suspensionMinMaxDist.y, dist));
-
-            modDist = Mathf.Abs(modDist - 1);
-
-            float force = Mathf.Lerp(suspensionMinMaxForce.x, suspensionMinMaxForce.y, modDist);
-            
-            Debug.Log(modDist);
-            
-            tankBody.AddForceAtPosition(suspensionPoints[i].up * force, suspensionPoints[i].position);
-
-            float visualDist = Mathf.Clamp(dist, suspensionMinMaxDist.x, suspensionMinMaxDist.y);
-            
-            //compensate for the pivot on the wheels being offset from the bottom of them
-            visualDist -= 0.3f;
-            suspensionWheels[i].position = suspensionPoints[i].position +  suspensionPoints[i].up * (-1 * visualDist);
-            trackArmatures[i].position = suspensionPoints[i].position +  suspensionPoints[i].up * (-1 * visualDist);
+        for(int i = 0; i < rightTreadWheels.Length; i++)
+        {
+            rightTreadWheels[i].accelerationInput = rightTrackSpeed;
         }
     }
 
-    private void NewSuspension()
+    private float leftTrackSpeed;
+    private float rightTrackSpeed;
+
+    private void RunTankMovement()
     {
-        
+        Vector2 move = input.Tank.WASD.ReadValue<Vector2>();
+
+        //stopped
+        if(move == Vector2.zero)
+        {
+            leftTrackSpeed = 0;
+            rightTrackSpeed = 0;
+            return;
+        }
+
+        //straight forwards/backwards
+        if(move.x == 0 && move.y != 0)
+        {
+            leftTrackSpeed = move.y;
+            rightTrackSpeed = move.y;
+            return;
+        }
+
+        //hard turns
+        if(move.x != 0 && move.y == 0)
+        {
+            rightTrackSpeed = -move.x;
+            leftTrackSpeed = move.x;
+        }
+
     }
 }

@@ -128,268 +128,320 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1308113531789096622, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: gripFactor
-      value: 0.9
+      propertyPath: maxSpeed
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 1308113531789096622, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: numberOfTires
-      value: 14
+      propertyPath: wheelTorque
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 1308113531789096622, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: dampingStrength
-      value: 450
+      propertyPath: powerCurve.m_Curve.Array.data[0].time
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1308113531789096622, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionOffset
-      value: 1
+      propertyPath: powerCurve.m_Curve.Array.data[0].value
+      value: 0.50006104
       objectReference: {fileID: 0}
     - target: {fileID: 1308113531789096622, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionStrength
-      value: 2000
+      propertyPath: powerCurve.m_Curve.Array.data[0].inSlope
+      value: 2.4996948
+      objectReference: {fileID: 0}
+    - target: {fileID: 1308113531789096622, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
+      propertyPath: powerCurve.m_Curve.Array.data[0].outSlope
+      value: 2.4996948
       objectReference: {fileID: 0}
     - target: {fileID: 1365599572290747665, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: gripFactor
-      value: 0.9
+      propertyPath: maxSpeed
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 1365599572290747665, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: numberOfTires
-      value: 14
+      propertyPath: wheelTorque
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 1365599572290747665, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: dampingStrength
-      value: 450
+      propertyPath: powerCurve.m_Curve.Array.data[0].time
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1365599572290747665, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionOffset
-      value: 1
+      propertyPath: powerCurve.m_Curve.Array.data[0].value
+      value: 0.50006104
       objectReference: {fileID: 0}
     - target: {fileID: 1365599572290747665, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionStrength
-      value: 2000
+      propertyPath: powerCurve.m_Curve.Array.data[0].inSlope
+      value: 2.4996948
+      objectReference: {fileID: 0}
+    - target: {fileID: 1365599572290747665, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
+      propertyPath: powerCurve.m_Curve.Array.data[0].outSlope
+      value: 2.4996948
       objectReference: {fileID: 0}
     - target: {fileID: 1781051931336197906, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: gripFactor
-      value: 0.9
+      propertyPath: maxSpeed
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 1781051931336197906, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: numberOfTires
-      value: 14
+      propertyPath: wheelTorque
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 1781051931336197906, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: dampingStrength
-      value: 450
+      propertyPath: powerCurve.m_Curve.Array.data[0].time
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1781051931336197906, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionOffset
-      value: 1
+      propertyPath: powerCurve.m_Curve.Array.data[0].value
+      value: 0.50006104
       objectReference: {fileID: 0}
     - target: {fileID: 1781051931336197906, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionStrength
-      value: 2000
+      propertyPath: powerCurve.m_Curve.Array.data[0].inSlope
+      value: 2.4996948
+      objectReference: {fileID: 0}
+    - target: {fileID: 1781051931336197906, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
+      propertyPath: powerCurve.m_Curve.Array.data[0].outSlope
+      value: 2.4996948
       objectReference: {fileID: 0}
     - target: {fileID: 3485632696382015962, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: gripFactor
-      value: 0.9
+      propertyPath: maxSpeed
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3485632696382015962, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: numberOfTires
-      value: 14
+      propertyPath: wheelTorque
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 3485632696382015962, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: dampingStrength
-      value: 450
+      propertyPath: powerCurve.m_Curve.Array.data[0].time
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3485632696382015962, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionOffset
-      value: 1
+      propertyPath: powerCurve.m_Curve.Array.data[0].value
+      value: 0.50006104
       objectReference: {fileID: 0}
     - target: {fileID: 3485632696382015962, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionStrength
-      value: 2000
+      propertyPath: powerCurve.m_Curve.Array.data[0].inSlope
+      value: 2.4996948
+      objectReference: {fileID: 0}
+    - target: {fileID: 3485632696382015962, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
+      propertyPath: powerCurve.m_Curve.Array.data[0].outSlope
+      value: 2.4996948
       objectReference: {fileID: 0}
     - target: {fileID: 3994274961956914538, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: gripFactor
-      value: 0.9
+      propertyPath: maxSpeed
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 3994274961956914538, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: numberOfTires
-      value: 14
+      propertyPath: wheelTorque
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 3994274961956914538, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: dampingStrength
-      value: 450
+      propertyPath: powerCurve.m_Curve.Array.data[0].time
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3994274961956914538, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionOffset
-      value: 1
+      propertyPath: powerCurve.m_Curve.Array.data[0].value
+      value: 0.50006104
       objectReference: {fileID: 0}
     - target: {fileID: 3994274961956914538, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionStrength
-      value: 2000
+      propertyPath: powerCurve.m_Curve.Array.data[0].inSlope
+      value: 2.4996948
+      objectReference: {fileID: 0}
+    - target: {fileID: 3994274961956914538, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
+      propertyPath: powerCurve.m_Curve.Array.data[0].outSlope
+      value: 2.4996948
       objectReference: {fileID: 0}
     - target: {fileID: 4765011908227142899, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: gripFactor
-      value: 0.9
+      propertyPath: maxSpeed
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 4765011908227142899, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: numberOfTires
-      value: 14
+      propertyPath: wheelTorque
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 4765011908227142899, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: dampingStrength
-      value: 450
+      propertyPath: powerCurve.m_Curve.Array.data[0].time
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4765011908227142899, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionOffset
-      value: 1
+      propertyPath: powerCurve.m_Curve.Array.data[0].value
+      value: 0.50006104
       objectReference: {fileID: 0}
     - target: {fileID: 4765011908227142899, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionStrength
-      value: 2000
+      propertyPath: powerCurve.m_Curve.Array.data[0].inSlope
+      value: 2.4996948
+      objectReference: {fileID: 0}
+    - target: {fileID: 4765011908227142899, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
+      propertyPath: powerCurve.m_Curve.Array.data[0].outSlope
+      value: 2.4996948
       objectReference: {fileID: 0}
     - target: {fileID: 4878599394173567797, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
       propertyPath: m_Name
       value: Tank2
       objectReference: {fileID: 0}
     - target: {fileID: 4900431291133998370, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: gripFactor
-      value: 0.9
+      propertyPath: maxSpeed
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 4900431291133998370, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: numberOfTires
-      value: 14
+      propertyPath: wheelTorque
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 4900431291133998370, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: dampingStrength
-      value: 450
+      propertyPath: powerCurve.m_Curve.Array.data[0].time
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4900431291133998370, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionOffset
-      value: 1
+      propertyPath: powerCurve.m_Curve.Array.data[0].value
+      value: 0.50006104
       objectReference: {fileID: 0}
     - target: {fileID: 4900431291133998370, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionStrength
-      value: 2000
+      propertyPath: powerCurve.m_Curve.Array.data[0].inSlope
+      value: 2.4996948
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900431291133998370, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
+      propertyPath: powerCurve.m_Curve.Array.data[0].outSlope
+      value: 2.4996948
       objectReference: {fileID: 0}
     - target: {fileID: 5277668050693590974, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: gripFactor
-      value: 0.9
+      propertyPath: maxSpeed
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 5277668050693590974, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: numberOfTires
-      value: 14
+      propertyPath: wheelTorque
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 5277668050693590974, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: dampingStrength
-      value: 450
+      propertyPath: powerCurve.m_Curve.Array.data[0].time
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5277668050693590974, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionOffset
-      value: 1
+      propertyPath: powerCurve.m_Curve.Array.data[0].value
+      value: 0.50006104
       objectReference: {fileID: 0}
     - target: {fileID: 5277668050693590974, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionStrength
-      value: 2000
+      propertyPath: powerCurve.m_Curve.Array.data[0].inSlope
+      value: 2.4996948
+      objectReference: {fileID: 0}
+    - target: {fileID: 5277668050693590974, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
+      propertyPath: powerCurve.m_Curve.Array.data[0].outSlope
+      value: 2.4996948
       objectReference: {fileID: 0}
     - target: {fileID: 6128211767386138068, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: gripFactor
-      value: 0.9
+      propertyPath: maxSpeed
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 6128211767386138068, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: numberOfTires
-      value: 14
+      propertyPath: wheelTorque
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 6128211767386138068, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: dampingStrength
-      value: 450
+      propertyPath: powerCurve.m_Curve.Array.data[0].time
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6128211767386138068, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionOffset
-      value: 1
+      propertyPath: powerCurve.m_Curve.Array.data[0].value
+      value: 0.50006104
       objectReference: {fileID: 0}
     - target: {fileID: 6128211767386138068, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionStrength
-      value: 2000
+      propertyPath: powerCurve.m_Curve.Array.data[0].inSlope
+      value: 2.4996948
+      objectReference: {fileID: 0}
+    - target: {fileID: 6128211767386138068, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
+      propertyPath: powerCurve.m_Curve.Array.data[0].outSlope
+      value: 2.4996948
       objectReference: {fileID: 0}
     - target: {fileID: 6606311865021931837, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: gripFactor
-      value: 0.9
+      propertyPath: maxSpeed
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 6606311865021931837, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: numberOfTires
-      value: 14
+      propertyPath: wheelTorque
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 6606311865021931837, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: dampingStrength
-      value: 450
+      propertyPath: powerCurve.m_Curve.Array.data[0].time
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6606311865021931837, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionOffset
-      value: 1
+      propertyPath: powerCurve.m_Curve.Array.data[0].value
+      value: 0.50006104
       objectReference: {fileID: 0}
     - target: {fileID: 6606311865021931837, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionStrength
-      value: 2000
+      propertyPath: powerCurve.m_Curve.Array.data[0].inSlope
+      value: 2.4996948
+      objectReference: {fileID: 0}
+    - target: {fileID: 6606311865021931837, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
+      propertyPath: powerCurve.m_Curve.Array.data[0].outSlope
+      value: 2.4996948
       objectReference: {fileID: 0}
     - target: {fileID: 6809721934014027906, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: gripFactor
-      value: 0.9
+      propertyPath: maxSpeed
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 6809721934014027906, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: numberOfTires
-      value: 14
+      propertyPath: wheelTorque
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 6809721934014027906, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: dampingStrength
-      value: 450
+      propertyPath: powerCurve.m_Curve.Array.data[0].time
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6809721934014027906, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionOffset
-      value: 1
+      propertyPath: powerCurve.m_Curve.Array.data[0].value
+      value: 0.50006104
       objectReference: {fileID: 0}
     - target: {fileID: 6809721934014027906, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionStrength
-      value: 2000
+      propertyPath: powerCurve.m_Curve.Array.data[0].inSlope
+      value: 2.4996948
+      objectReference: {fileID: 0}
+    - target: {fileID: 6809721934014027906, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
+      propertyPath: powerCurve.m_Curve.Array.data[0].outSlope
+      value: 2.4996948
       objectReference: {fileID: 0}
     - target: {fileID: 7241781246438003683, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: gripFactor
-      value: 0.9
+      propertyPath: maxSpeed
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7241781246438003683, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: numberOfTires
-      value: 14
+      propertyPath: wheelTorque
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 7241781246438003683, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: dampingStrength
-      value: 450
+      propertyPath: powerCurve.m_Curve.Array.data[0].time
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7241781246438003683, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionOffset
-      value: 1
+      propertyPath: powerCurve.m_Curve.Array.data[0].value
+      value: 0.50006104
       objectReference: {fileID: 0}
     - target: {fileID: 7241781246438003683, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionStrength
-      value: 2000
+      propertyPath: powerCurve.m_Curve.Array.data[0].inSlope
+      value: 2.4996948
+      objectReference: {fileID: 0}
+    - target: {fileID: 7241781246438003683, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
+      propertyPath: powerCurve.m_Curve.Array.data[0].outSlope
+      value: 2.4996948
       objectReference: {fileID: 0}
     - target: {fileID: 7317443472946591247, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: gripFactor
-      value: 0.9
+      propertyPath: maxSpeed
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7317443472946591247, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: numberOfTires
-      value: 14
+      propertyPath: wheelTorque
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 7317443472946591247, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: dampingStrength
-      value: 450
+      propertyPath: powerCurve.m_Curve.Array.data[0].time
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7317443472946591247, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionOffset
-      value: 1
+      propertyPath: powerCurve.m_Curve.Array.data[0].value
+      value: 0.50006104
       objectReference: {fileID: 0}
     - target: {fileID: 7317443472946591247, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionStrength
-      value: 2000
+      propertyPath: powerCurve.m_Curve.Array.data[0].inSlope
+      value: 2.4996948
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317443472946591247, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
+      propertyPath: powerCurve.m_Curve.Array.data[0].outSlope
+      value: 2.4996948
       objectReference: {fileID: 0}
     - target: {fileID: 7620708224346526514, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -432,24 +484,28 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7937286254143834499, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: gripFactor
-      value: 0.9
+      propertyPath: maxSpeed
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7937286254143834499, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: numberOfTires
-      value: 14
+      propertyPath: wheelTorque
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 7937286254143834499, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: dampingStrength
-      value: 450
+      propertyPath: powerCurve.m_Curve.Array.data[0].time
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7937286254143834499, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionOffset
-      value: 1
+      propertyPath: powerCurve.m_Curve.Array.data[0].value
+      value: 0.50006104
       objectReference: {fileID: 0}
     - target: {fileID: 7937286254143834499, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
-      propertyPath: suspensionStrength
-      value: 2000
+      propertyPath: powerCurve.m_Curve.Array.data[0].inSlope
+      value: 2.4996948
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937286254143834499, guid: 93c85a621aff34e4bbddf0c5218a63c7, type: 3}
+      propertyPath: powerCurve.m_Curve.Array.data[0].outSlope
+      value: 2.4996948
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
