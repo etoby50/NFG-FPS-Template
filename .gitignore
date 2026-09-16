@@ -6,13 +6,13 @@
 # See: https://github.com/github/gitignore/tree/main/Global
 #
 .utmp/
-/TankRogue/[Ll]ibrary/
-/TankRogue/[Tt]emp/
-/TankRogue/[Oo]bj/
-/TankRogue/[Bb]uild/
-/TankRogue/[Bb]uilds/
-/TankRogue/[Ll]ogs/
-/TankRogue/[Uu]ser[Ss]ettings/
+/NFGFPSTemplate/[Ll]ibrary/
+/NFGFPSTemplate/[Tt]emp/
+/NFGFPSTemplate/[Oo]bj/
+/NFGFPSTemplate/[Bb]uild/
+/NFGFPSTemplate/[Bb]uilds/
+/NFGFPSTemplate/[Ll]ogs/
+/NFGFPSTemplate/[Uu]ser[Ss]ettings/
 *.log
 
 # By default unity supports Blender asset imports, *.blend1 blender files do not need to be commited to version control.
