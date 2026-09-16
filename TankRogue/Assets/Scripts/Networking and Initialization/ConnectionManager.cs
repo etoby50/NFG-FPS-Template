@@ -60,7 +60,7 @@ public class ConnectionManager : MonoBehaviour
     {
         try
         {
-            OnConnectionStarted.Invoke("Creating Session....");
+            OnConnectionStarted?.Invoke("Creating Session....");
 
             AuthenticationService.Instance.SwitchProfile(playerName);
 
@@ -78,7 +78,7 @@ public class ConnectionManager : MonoBehaviour
         }
         catch(Exception e)
         {
-            OnConnectionIssue.Invoke(e.Message);
+            OnConnectionIssue?.Invoke(e.Message);
             Debug.LogError("Session could not be created!");
             Debug.LogError(e.Message);
         }
@@ -88,7 +88,7 @@ public class ConnectionManager : MonoBehaviour
     {
         try
         {
-            OnConnectionStarted.Invoke("Joining Session...");
+            OnConnectionStarted?.Invoke("Joining Session...");
 
             AuthenticationService.Instance.SwitchProfile(playerName);
 

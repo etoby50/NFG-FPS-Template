@@ -36,5 +36,7 @@ public class GameSceneManager : NetworkBehaviour
         Debug.Log("Unloaded Menu Scene");
         await SceneManager.LoadSceneAsync(Bootstrap.Instance.gameSceneName, LoadSceneMode.Additive);
         Debug.Log("Loaded Game Scene");
+
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName(Bootstrap.Instance.gameSceneName));
     }
 }

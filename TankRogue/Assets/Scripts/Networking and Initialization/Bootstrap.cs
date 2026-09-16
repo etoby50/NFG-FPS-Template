@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using Palmmedia.ReportGenerator.Core.Parser.Analysis;
 using Unity.Netcode;
 using Unity.VisualScripting;
@@ -25,11 +26,13 @@ public class Bootstrap : MonoBehaviour
     [SerializeField] private string bootstrapSceneName;
     public string gameSceneName;
 
-    private void Awake()
+    private async Task Awake()
     {
         Debug.Log("initializing bootstrap!");
         instance = this;
-        SceneManager.LoadScene(mainMenuSceneName, LoadSceneMode.Additive);
+        await SceneManager.LoadSceneAsync(mainMenuSceneName, LoadSceneMode.Additive);
+
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName(mainMenuSceneName));
     }
 
 }
