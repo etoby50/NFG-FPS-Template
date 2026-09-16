@@ -42,8 +42,12 @@ public class SimplePlayer : NetworkBehaviour, ICharacter
 
     public void MoveWASD(Vector2 moveInput)
     {
-        Vector2 movement = moveInput.normalized * movementSpeed;
-        networkRigid.linearVelocity = new Vector3(movement.x, networkRigid.linearVelocity.y, movement.y);
+        Vector3 forwards = yawTrans.forward * moveInput.y;
+        Vector3 right = yawTrans.right * moveInput.x;
+
+        Vector3 movement = (forwards + right).normalized * movementSpeed;
+
+        networkRigid.linearVelocity = new Vector3(movement.x, networkRigid.linearVelocity.y, movement.z);
     }
 
     [Header("Look Settings")]

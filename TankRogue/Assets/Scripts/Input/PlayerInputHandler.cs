@@ -48,11 +48,15 @@ public class PlayerInputHandler : MonoBehaviour
             {
                 OnUpdateAction += RunCharacterMovement;
                 playerInput.Movement.Enable();
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
             }
             else
             {
                 OnUpdateAction -= RunCharacterMovement;
                 playerInput.Movement.Disable();
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
             }
 
             _playerCharacter = value;
